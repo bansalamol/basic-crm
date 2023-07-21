@@ -1,0 +1,53 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard-analytics"
+    },
+    {
+      "menuHeader": "Forms & Tables"
+    },
+    {
+      "name": "Form Elements",
+      "icon": "menu-icon tf-icons bx bx-detail",
+      "slug": "forms",
+      "submenu": [
+        {
+          "url": "web/forms/basic-inputs",
+          "name": "Basic Inputs",
+          "slug": "forms-basic-inputs"
+        },
+        {
+          "url": "web/forms/input-groups",
+          "name": "Input groups",
+          "slug": "forms-input-groups"
+        }
+      ]
+    },
+    {
+      "name": "Form Layouts",
+      "icon": "menu-icon tf-icons bx bx-detail",
+      "slug": "form-layouts",
+      "submenu": [
+        {
+          "url": "web/form/layouts-vertical",
+          "name": "Vertical Form",
+          "slug": "form-layouts-vertical"
+        },
+        {
+          "url": "web/form/layouts-horizontal",
+          "name": "Horizontal Form",
+          "slug": "form-layouts-horizontal"
+        }
+      ]
+    },
+    {
+      "url": "web/tables/basic",
+      "icon": "menu-icon tf-icons bx bx-table",
+      "name": "Tables",
+      "slug": "tables-basic"
+    }
+  ]
+}
